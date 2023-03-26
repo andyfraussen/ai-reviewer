@@ -1,0 +1,24 @@
+{
+  "name": "AI-Reviewer",
+  "description": "Review pull-requests with OpenAI",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "48": "assets/48.png",
+    "72": "assets/72.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "AI Reviewer"
+  },
+  "background": {
+    "service_worker": "scripts/contextMenuServiceWorker.js"
+  },
+  "permissions": ["contextMenus", "tabs", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["scripts/content.js"]
+    }
+  ]
+}
