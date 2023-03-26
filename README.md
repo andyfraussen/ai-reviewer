@@ -2,7 +2,7 @@ AI Reviewer Chrome Extension
 ===============================
 
 ## Overview
-The AI Reviewer Chrome Extension is an innovative tool that uses AI-powered language models to assist developers in reviewing pull-request. By integrating this extension into your Chrome browser, you can receive instant feedback and suggestions on the code you review.
+The AI Reviewer Chrome Extension is a tool that uses AI-powered language models to assist developers in reviewing pull-request or code snippets. By integrating this extension into your Chrome browser, you can receive instant feedback and suggestions on the code you review just by selecting it.
 
 ## Features
 - Real-time code analysis: Get instant feedback and suggestions for your code snippets as you browse the web, write, or edit code on various platforms like GitHub, Bitbucket and Stack Overflow.
